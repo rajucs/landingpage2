@@ -36,5 +36,9 @@ hr{
 	.col-xs-12{
 		right: 0;
 	}
+		.maincontent{
+		top: -6px;
+		left: 6px;
+}
 }
 }
