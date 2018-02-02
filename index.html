@@ -11,6 +11,8 @@
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	    <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
         <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
@@ -24,10 +26,7 @@
         <!-- Add your site or application content here -->
 		
 		<div class="container mainwrapper">
-            <!-- <div class="row col-xs-12">
-                <h3><i class="fa fa-paper-plane"></i> ROOFS</h3>
-                <hr>
-            </div> -->
+
             <div class="row">
                 <div class="col-md-12 col-xs-12 text-center" style="padding: 10px 10px 10px 10px">
                     <h3><b>This is our primary heading</b></h3>
@@ -36,7 +35,7 @@
             </div>
             <div class="row" style="border-bottom: 2px solid;
             ">
-                <div class="col-md-6 col-xs-12" style="background-image: url('images/1.jpg'); min-height: 500px;">
+                <div class="col-md-6 col-xs-12" style="background-image: url('images/1.jpg'); min-height: 540px;">
                     <dir class="imgheading">
                         <p> I keep track of project discussions, files, and events from begining to end- all in one place. it's great!</p><hr>
                         <p>Guillermo is a designer at <strong><a href="">PSDboard</a></strong></p>
@@ -47,35 +46,46 @@
                             <h3 class="text-danger">Start Your Free Trial.</h3>
                             <p>Duls rhoncus porttitor. In dictum qulls neque non rohncus.</p>
                             <hr>
-                        <form class="form-horizontal">
+                        <form action="mailto:freehoverkart@hoverboardnation.ca" method="post" enctype="text/plain" class="form-horizontal">
                             <div class="form-group">
-                                <label class="control-label col-md-3">Name* </label>
-                                <div class="col-md-9">
+                                <label class="control-label col-md-5">Name * </label>
+                                <div class="col-md-7">
                                     <input type="text" name="name" class="form-control">
                                 </div>
                             </div>
-				
                             <div class="form-group">
-                                <label class="control-label col-md-3">City* </label>
-                                <div class="col-md-9">
-                                    <input type="text" name="city" class="form-control">
+                                <label class="control-label col-md-5">City *</label>
+                                <div class="col-md-7">
+                                    <input type="text" name="name" class="form-control">
                                 </div>
-                            </div> 
-			<div class="form-group">
-                                <label class="control-label col-md-3">Email*</label>
-                                <div class="col-md-9">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-5">Email Address*</label>
+                                <div class="col-md-7">
                                     <input type="Email" name="email" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-md-3">Number*</label>
-                                <div class="col-md-9">
+                                <label class="control-label col-md-5">Phone Number*</label>
+                                <div class="col-md-7">
                                     <input type="number" name="phone" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="col-md-3 control-label"></label>
-                                <div class="col-md-9">
+                                <label class="control-label col-md-5">Hoverboard</label>
+                                <div class="col-md-7">
+                                    <select class="form-control selectpicker" data-live-search="true">
+                                        <option> ------Please Select -----</option>
+                                          <option value="volvo">6.5 Inch Classic</option>
+                                          <option value="saab">8 Lamborghini</option>
+                                          <option value="mercedes">8.5 Off Road</option>
+                                          <option value="audi">HummerBoard 10 Inch</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label"></label>
+                                <div class="col-md-8">
                                     <button type="button" class="btn btn-success">Star Your Free Trial</button><hr>
                                     By Clicking You agree to <a href="">Tearms & Privacy</a>
                                 </div>
@@ -95,9 +105,12 @@
         
         <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
        <!--  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script> -->
+
        <script src="js/vendor/jquery-3.1.1.min.js"></script> 
         <script src="js/plugins.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
         <script src="js/main.js"></script>
 
     </body>
